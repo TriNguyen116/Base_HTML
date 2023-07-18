@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Web</title>
+</head>
+<style>
+  body {
+    background-color: #F0F2F5;
+  }
+
+  .input {
+    font-size: 17px;
+    display: block;
+    width: 333px;
+    padding: 14px 16px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .submit {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .form {
+    display: block;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding-bottom: 24px;
+    padding-top: 10px;
+    width: 396;
+  }
+
+  .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+  }
+
+  .fb_img {
+    height: 106px;
+    margin: -28px;
+  }
+
+  .fb_text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+  }
+
+  .a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+  }
+  .button{
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 0px 16px;
+    
+  }
+  .p{
+    display: block;
+    width: 370px;
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+  }
+  .text {
+    padding-right: 80px;
+    margin-bottom: 100px;
+  }
+  .new_a{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>
+
+<body>
+  <div class="cover">
+    <div class="text" id="text">
+      <div>
+        <img class="fb_img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+      </div>
+      <h1 class="fb_text">Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của ban.</h1>
+    </div>
+    <div class="cover-form">
+      <form class="form" action="">
+        <label for="fname"></label>
+        <input class="input" type="text" id="femail" name="femail" placeholder="Email hoặc số điện thoại">
+        <label for="fname"></label>
+        <input class="input" type="text" id="fpassword" name="fpassword" placeholder="Mật Khẩu">
+        <input class="submit" type="submit" value="Đăng Nhập">
+        <a class="a" href="">Quên mật khẩu?</a>
+        <div class="line"></div>
+        <button class="button">Tạo tài khoản mới</button>
+      </form>
+      <div>
+      <p class="p"><a class="new_a" href="">Tạo Trang</a> dành cho người nổi tiếng, thương hiệu hoặc doanh nghiệp</p>
+    </div>
+    </div>
+  </div>
+</body>
+
+</html>
